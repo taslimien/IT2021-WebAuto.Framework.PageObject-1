@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Amazon Test Script" duration-ms="78773" started-at="2021-04-07T22:32:06 EDT" finished-at="2021-04-07T22:33:24 EDT">
+    <groups>
+    </groups>
+    <test name="Amazon Home" duration-ms="78773" started-at="2021-04-07T22:32:06 EDT" finished-at="2021-04-07T22:33:24 EDT">
+      <class name="landingpage.DropDownMenu2">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:landingpage.DropDownMenu2@6895a785]" name="setUp" is-config="true" duration-ms="4685" started-at="2021-04-07T22:33:14 EDT" finished-at="2021-04-07T22:33:19 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="dropDownMenu2()[pri:0, instance:landingpage.DropDownMenu2@6895a785]" name="dropDownMenu2" duration-ms="1325" started-at="2021-04-07T22:33:19 EDT" finished-at="2021-04-07T22:33:20 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownMenu2 -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:landingpage.DropDownMenu2@6895a785]" name="cleanup" is-config="true" duration-ms="4083" started-at="2021-04-07T22:33:20 EDT" finished-at="2021-04-07T22:33:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- landingpage.DropDownMenu2 -->
+      <class name="landingpage.HomePage">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:landingpage.HomePage@6e6c3152]" name="setUp" is-config="true" duration-ms="7573" started-at="2021-04-07T22:32:06 EDT" finished-at="2021-04-07T22:32:13 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkTitle()[pri:0, instance:landingpage.HomePage@6e6c3152]" name="checkTitle" duration-ms="32" started-at="2021-04-07T22:32:13 EDT" finished-at="2021-04-07T22:32:13 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:landingpage.HomePage@6e6c3152]" name="cleanup" is-config="true" duration-ms="207" started-at="2021-04-07T22:32:13 EDT" finished-at="2021-04-07T22:32:13 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- landingpage.HomePage -->
+      <class name="landingpage.DropDownMenu1">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:landingpage.DropDownMenu1@48503868]" name="setUp" is-config="true" duration-ms="5088" started-at="2021-04-07T22:33:08 EDT" finished-at="2021-04-07T22:33:13 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="dropDownMenu1()[pri:0, instance:landingpage.DropDownMenu1@48503868]" name="dropDownMenu1" duration-ms="1250" started-at="2021-04-07T22:33:13 EDT" finished-at="2021-04-07T22:33:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownMenu1 -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:landingpage.DropDownMenu1@48503868]" name="cleanup" is-config="true" duration-ms="121" started-at="2021-04-07T22:33:14 EDT" finished-at="2021-04-07T22:33:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- landingpage.DropDownMenu1 -->
+      <class name="landingpage.SearchPage">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:landingpage.SearchPage@10bbd20a]" name="setUp" is-config="true" duration-ms="5039" started-at="2021-04-07T22:32:13 EDT" finished-at="2021-04-07T22:32:18 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search()[pri:0, instance:landingpage.SearchPage@10bbd20a]" name="search" duration-ms="45253" started-at="2021-04-07T22:32:18 EDT" finished-at="2021-04-07T22:33:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:landingpage.SearchPage@10bbd20a]" name="cleanup" is-config="true" duration-ms="4073" started-at="2021-04-07T22:33:04 EDT" finished-at="2021-04-07T22:33:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- landingpage.SearchPage -->
+    </test> <!-- Amazon Home -->
+  </suite> <!-- Amazon Test Script -->
+</testng-results>
